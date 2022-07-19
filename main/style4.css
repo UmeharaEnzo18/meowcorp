@@ -1,0 +1,40 @@
+.background {
+
+	background-color: #3D3B3B;
+	background-image: url('img/bordas.png');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-position: center;
+	background-attachment: local;
+    
+}
+button{
+
+	margin-top: 3.5%;
+	background-color: transparent;
+	border-width: 0px;
+	border-top-right-radius: 20em;
+	border-top-left-radius: 20em;
+	border-bottom-right-radius: 20em;
+	border-bottom-left-radius: 20em;
+
+
+	cursor: pointer;
+  transition-duration: 0.3s;
+
+}
+
+.imagens{
+	width: 15%;
+	height: 15%; 
+	margin: 0px auto; 
+	display: flex;
+	justify-content: center;
+}
+code{
+
+	font-weight: bold;
+	color: #fff;
+	padding-top: 10px;
+	float: right;
+	width: 65%;}

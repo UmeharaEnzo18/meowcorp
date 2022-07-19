@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="icon" href="img/catsleep.ico" type="image">
+	<link rel="stylesheet" type="text/css" href="style2.css">
+	<meta charset="utf-8"/>
+	<title>MEOWCORP</title>
+
+
+</head>
+<body class="background">
+
+	<!-- Arrumar a responsividade se for utilizar -->
+
+	<div id="tudo">
+		
+		<div id="title">
+			<h1>&#9888;&#65039;Formulário secreto&#9888;&#65039;</h1>
+
+			<form name="form" method="post" autocomplete="off" onsubmit="required()">
+	
+				<div id="inputs">
+	
+				<label style="margin-right: 241px;">Qual seu nome?</label><br>
+				<!-- adequar o input type ao que esta no plano -->
+				<input class="input-form" type="text" name="nome" id="nome" required>
+				
+				<br>
+				
+				<label style="margin-top: 2em;">Em que ano você nasceu?</label><br>
+				<input class="data-form" type="date" name="date" id="date" required>
+
+				<br>
+
+				<!-- trocar imagem para a que esta no plano -->
+				<button  type="submit" onclick="check(this.form)"><img src="img/pata.png"></button>
+
+				</div>
+	
+			</form>
+			<p style="color: #fff; text-align: center">Clique na pata apenas se você estiver pronto...</p>
+
+		</div>
+	</div>
+
+<script src="script.js">
+
+</script>
+
+</body>
+</html>

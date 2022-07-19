@@ -1,0 +1,44 @@
+.background {
+
+  background-color: #3D3B3B;
+  background-image: url('img/bordas.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  background-position: center;
+
+}
+button{
+
+	margin-top: 3.0%;
+	background-color: #FF3535;
+	border-width: 0px;
+	border-radius: 20em;
+
+
+	cursor: pointer;
+  transition-duration: 0.3s;
+
+}
+button:hover {
+
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
+}
+input  {
+    background-color: #FF3535;
+    width: 40%;
+    height: 30px;
+}
+#inputs{
+    
+	margin-top: 5%; 
+    margin-right: auto;
+    margin-left: -5%;
+    text-align: center;
+}
+img{
+
+  width: 70%;
+
+}
